@@ -1,10 +1,12 @@
 import { Stack } from "@mui/material"
-import { Header } from "../components";
+import { Header, Services } from "../components";
 
 function Home() {
       return (
-            <Stack spacing={2}>
+            <Stack spacing={10}>
                   <Header/>
+
+                  <Services/>
 
             </Stack>
       )

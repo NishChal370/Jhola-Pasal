@@ -1,7 +1,7 @@
-import { Stack } from '@mui/material';
 import { AmazonIcon, SpaceXIcon, GoogleIcon, PaypalIcon, ModelWithBagIcon } from '../../assets';
+import { Stack } from '@mui/material';
 import { GreenButton } from '../../styles/app';
-import { ArticleStack, CircleBox, ClientLogoImage, ClientsList, HeaderStack, HeaderSubTitle, HeaderTitle, ImageBoxContainer, ImageBoxWrapper, ModelImage } from '../../styles/components/index';
+import { ArticleStack, CircleBox, ClientLogoImage, ClientsList, HeaderStack, HeaderSubTitle, HeaderTitle, ImageBoxContainer, ImageBoxWrapper, ModelImage } from '../../styles/components/home/header';
 
 
 function Header() {
@@ -11,7 +11,10 @@ function Header() {
                         <CircleBox></CircleBox>
 
                         <ImageBoxWrapper>
-                              <ModelImage src={ModelWithBagIcon} alt="model-img" />
+                              <ModelImage 
+                                    src={ModelWithBagIcon} 
+                                    alt="model-img" 
+                              />
                         </ImageBoxWrapper>
                   </ImageBoxContainer>
                   
@@ -29,13 +32,25 @@ function Header() {
                               <HeaderSubTitle  variant='h2'>Trusted by:</HeaderSubTitle>
 
                               <ClientsList>
-                                    <ClientLogoImage src={AmazonIcon} alt="amazon-img" />
+                                    <ClientLogoImage 
+                                          src={AmazonIcon} 
+                                          alt="amazon-img"
+                                    />
 
-                                    <ClientLogoImage src={SpaceXIcon} alt="spacex-img" />
+                                    <ClientLogoImage 
+                                          src={SpaceXIcon} 
+                                          alt="spacex-img"
+                                    />
 
-                                    <ClientLogoImage src={GoogleIcon} alt="google-img" />
+                                    <ClientLogoImage 
+                                          src={GoogleIcon} 
+                                          alt="google-img"
+                                    />
 
-                                    <ClientLogoImage src={PaypalIcon} alt="paypal-img" />
+                                    <ClientLogoImage 
+                                          src={PaypalIcon} 
+                                          alt="paypal-img"
+                                    />
                               </ClientsList>
                         </Stack>
                   </ArticleStack>
