@@ -8,7 +8,10 @@ import VanIcon from './pages/home/services/van.png';
 import WomanIcon from './pages/home/services/woman.png';
 import DollarIcon from './pages/home/services/dollar.png';
 
+import Graph from './pages/home/about/graph.png';
+
 export { 
       AmazonIcon, SpaceXIcon, PaypalIcon, GoogleIcon, ModelWithBagIcon,
-      WomanIcon, VanIcon, DollarIcon,  
+      WomanIcon, VanIcon, DollarIcon, 
+      Graph, 
 }

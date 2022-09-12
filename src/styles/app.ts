@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import { Container, styled } from "@mui/system";
 
 
@@ -40,6 +40,19 @@ export const GreenButton = styled(Button)( ({theme})=>({
 
       [theme.breakpoints.up('lg')]:{
             fontSize: '1.1rem',
+      },
+
+}) )
+
+
+export const Title = styled(Typography)( ({theme})=>({
+      fontFamily: `'Raleway', 'sans-serif'`,
+      fontSize: '2.4rem',
+      fontWeight: '600',
+      color: 'black',
+
+      [theme.breakpoints.up('lg')]:{
+            fontSize: '2.8rem',
       },
 
 }) )

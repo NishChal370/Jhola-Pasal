@@ -16,17 +16,6 @@ export const TitleStackContainer = styled(Stack)( ({theme})=>({
 
 }) )
 
-export const Title = styled(Typography)( ({theme})=>({
-      fontFamily: `'Raleway', 'sans-serif'`,
-      fontSize: '2.4rem',
-      fontWeight: '600',
-      color: 'black',
-
-      [theme.breakpoints.up('lg')]:{
-            fontSize: '2.8rem',
-      }
-
-}) )
 
 export const SubTitle = styled(Typography)( ({theme})=>({
       fontSize: '1rem',

@@ -1,6 +1,7 @@
 import ServiceCard from "./ServiceCard";
 import { DollarIcon, VanIcon, WomanIcon } from "../../../assets";
-import { ServicesStack, SubTitle, Title, ServiceContainer, TitleStackContainer } from "../../../styles/components/home/services";
+import { Title } from "../../../styles/app" ;
+import { ServicesStack, SubTitle, ServiceContainer, TitleStackContainer } from "../../../styles/components/home/services";
 
 
 function Services() {
