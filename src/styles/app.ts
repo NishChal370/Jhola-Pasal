@@ -56,3 +56,12 @@ export const Title = styled(Typography)( ({theme})=>({
       },
 
 }) )
+
+export const SubTitle = styled(Typography)( ({theme})=>({
+      fontSize: '1rem',
+
+      [theme.breakpoints.up('lg')]:{
+            fontSize: '1.2rem',
+      }
+
+}) )

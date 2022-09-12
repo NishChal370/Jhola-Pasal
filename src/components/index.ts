@@ -2,6 +2,7 @@ import NavBar from "./navBar/NavBar";
 import Header from "./home/Header";
 import Services from "./home/services/Services";
 import About from "./home/about/About";
+import Deals from "./home/deals/Deals";
 
 
-export { NavBar, Header, Services, About }
+export { NavBar, Header, Services, About, Deals }

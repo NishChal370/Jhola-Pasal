@@ -1,5 +1,5 @@
 import { Stack } from "@mui/material"
-import { About, Header, Services } from "../components";
+import { About, Deals, Header, Services } from "../components";
 
 function Home() {
       return (
@@ -9,6 +9,8 @@ function Home() {
                   <Services/>
 
                   <About/>
+
+                  <Deals/>
                   <div></div>
                   <div></div>
                   <div></div>

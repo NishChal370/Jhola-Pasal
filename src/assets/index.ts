@@ -10,8 +10,12 @@ import DollarIcon from './pages/home/services/dollar.png';
 
 import Graph from './pages/home/about/graph.png';
 
+import GrayBag from './pages/home/deals/grayBag.jpg';
+import BlueBag from './pages/home/deals/blueBag.jpg';
+
 export { 
       AmazonIcon, SpaceXIcon, PaypalIcon, GoogleIcon, ModelWithBagIcon,
       WomanIcon, VanIcon, DollarIcon, 
       Graph, 
+      GrayBag, BlueBag
 }

@@ -17,15 +17,6 @@ export const TitleStackContainer = styled(Stack)( ({theme})=>({
 }) )
 
 
-export const SubTitle = styled(Typography)( ({theme})=>({
-      fontSize: '1rem',
-
-      [theme.breakpoints.up('lg')]:{
-            fontSize: '1.2rem',
-      }
-
-}) )
-
 export const ServiceContainer = styled(Grid)( ()=>({
       rowGap: '2rem',
       columnGap: '2rem',
