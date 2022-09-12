@@ -1,5 +1,5 @@
 import { Stack, Typography } from '@mui/material';
-import { AboutCard, NumberTitle } from '../../styles/components/home/about';
+import { AboutCard, NumberTitle } from '../../../styles/components/home/about';
 
 interface ITextCard{
       title: string,

@@ -1,6 +1,6 @@
 import { Box, Stack } from '@mui/material';
-import { Graph } from '../../assets';
-import { AboutCard, CardImage, CardImageContainer, CardTitle, NumberTypography } from '../../styles/components/home/about';
+import { Graph } from '../../../assets';
+import { AboutCard, CardImage, CardImageContainer, CardTitle, NumberTypography } from '../../../styles/components/home/about';
 
 interface IGraphCard{
       title: string, 

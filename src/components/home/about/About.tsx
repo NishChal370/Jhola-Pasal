@@ -1,8 +1,8 @@
 import TextCard from "./TextCard";
 import GraphCard from "./GraphCard";
 import { Box, Stack } from "@mui/material";
-import { GreenButton, Title } from "../../styles/app"; 
-import { AboutStack, Article, CardsContainer, DetailStack } from "../../styles/components/home/about";
+import { GreenButton, Title } from "../../../styles/app"; 
+import { AboutStack, Article, CardsContainer, DetailStack } from "../../../styles/components/home/about";
 
 
 function About() {
