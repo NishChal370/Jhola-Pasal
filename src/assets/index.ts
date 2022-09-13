@@ -13,9 +13,13 @@ import Graph from './pages/home/about/graph.png';
 import GrayBag from './pages/home/deals/grayBag.jpg';
 import BlueBag from './pages/home/deals/blueBag.jpg';
 
+import GreenBag from './pages/home/aboutProduct/greenBag.png';
+import GreenTick from './pages/home/aboutProduct/greenTick.png';
+
 export { 
       AmazonIcon, SpaceXIcon, PaypalIcon, GoogleIcon, ModelWithBagIcon,
       WomanIcon, VanIcon, DollarIcon, 
       Graph, 
-      GrayBag, BlueBag
+      GrayBag, BlueBag,
+      GreenTick, GreenBag,
 }
