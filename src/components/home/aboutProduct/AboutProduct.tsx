@@ -1,8 +1,8 @@
-import { Avatar, Box, List, ListItem, ListItemAvatar, ListItemIcon, ListItemText, Typography } from "@mui/material"
-import { Stack } from "@mui/system"
-import { GreenBag, GreenTick } from "../../../assets"
-import { Title } from "../../../styles/app"
-import { AboutProductStack, Image, ListImage, MainImageBox } from "../../../styles/components/home/aboutProduct"
+import { List, ListItem, ListItemText, Typography } from "@mui/material";
+import { Stack } from "@mui/system";
+import { GreenBag, GreenTick } from "../../../assets";
+import { GreenButton, Title } from "../../../styles/app";
+import { AboutProductStack, Image, ListImage, MainImageBox } from "../../../styles/components/home/aboutProduct";
 
 
 function AboutProduct() {
@@ -38,6 +38,8 @@ function AboutProduct() {
                               ) })
                         }
                         </List>
+
+                        <GreenButton>Click To Buy Now</GreenButton>
                   </Stack>
 
                   <MainImageBox component='figure'>

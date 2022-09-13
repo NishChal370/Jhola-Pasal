@@ -3,8 +3,11 @@ import { Avatar, Box, ListItemAvatar, Stack, styled } from "@mui/material";
 export const AboutProductStack = styled(Stack)( ({theme})=>({
       alignItems:'center', 
 
-      [theme.breakpoints.up('md')]:{
+      [theme.breakpoints.up(715)]:{
             flexDirection: 'row',
+      },
+
+      [theme.breakpoints.up('md')]:{
             gap: '6rem',
       },
 
@@ -28,6 +31,16 @@ export const MainImageBox = styled(Box)( ({theme})=>({
       maxWidth: '24rem',
       alignSelf: 'center',
 
+      [theme.breakpoints.up(715)]:{
+            alignSelf: 'start',
+            width: '48rem',  
+      },
+      
+      [theme.breakpoints.up(789)]:{
+            alignSelf: 'center',
+            width: '60rem',  
+      },
+
       [theme.breakpoints.up(820)]:{
             width: '86rem',
       },
@@ -39,6 +52,7 @@ export const MainImageBox = styled(Box)( ({theme})=>({
 
       [theme.breakpoints.up('lg')]:{
             width: '60rem',
+            maxWidth: '60rem',
       },
 
 }) )
