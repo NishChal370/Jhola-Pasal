@@ -20,10 +20,10 @@ export const TitleStackContainer = styled(Stack)( ({theme})=>({
 export const CardsContainer = styled(Stack)( ({theme})=>({
       gap: '2rem',
 
-      [theme.breakpoints.up('sm')]:{
+      [theme.breakpoints.up('md')]:{
             flexDirection: 'row',
       },
-
+      
       [theme.breakpoints.up('lg')]:{
             gap: '6rem',
       },
@@ -48,11 +48,19 @@ export const CardContainer = styled(Card)( ({theme})=>({
             boxShadow: '0 0 10px #ece9e9',
       },
 
-      [theme.breakpoints.up('md')]:{
+      [theme.breakpoints.up('sm')]:{
+            maxWidth: '54rem',
             flexDirection:'row',
-            maxWidth: '40rem',
       },
 
+      [theme.breakpoints.up('md')]:{
+            maxWidth: '40rem',
+            flexDirection:'column-reverse',
+      },
+
+      [theme.breakpoints.up('lg')]:{
+            flexDirection:'row',
+      },
 }) )
 
 
