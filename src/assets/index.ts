@@ -23,6 +23,11 @@ import UserFour from './pages/home/testimonianls/user4.jpeg';
 import UserFive from './pages/home/testimonianls/user5.jpeg';
 import UserSix from './pages/home/testimonianls/user6.jpeg';
 
+import Facebook from './pages/footer/facebook.png';
+import Instagram from './pages/footer/instagram.png';
+import LinkedIn from './pages/footer/linkedin.png';
+import Twitter from './pages/footer/twitter.png';
+
 
 export { 
       AmazonIcon, SpaceXIcon, PaypalIcon, GoogleIcon, ModelWithBagIcon,
@@ -31,4 +36,5 @@ export {
       GrayBag, BlueBag,
       GreenTick, GreenBag,
       UserOne, UserTwo, UserThree, UserFour, UserFive, UserSix,
+      Facebook, Instagram, LinkedIn, Twitter,
 }

@@ -1,6 +1,6 @@
 import { Box } from '@mui/material';
 import { Home } from './pages';
-import { NavBar } from './components';
+import { Footer, NavBar } from './components';
 import { Main } from './styles/app';
 
 
@@ -15,6 +15,8 @@ function App() {
                         <Home/>
 
                   </Main>
+
+                  <Footer/>
             </Box>
       )
 }

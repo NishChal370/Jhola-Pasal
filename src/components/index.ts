@@ -1,4 +1,5 @@
 import NavBar from "./navBar/NavBar";
+import Footer from "./footer/Footer";
 import Header from "./home/Header";
 import Services from "./home/services/Services";
 import About from "./home/about/About";
@@ -8,4 +9,4 @@ import Testimonials from "./home/testimonials/Testimonials";
 import SignUp from "./home/signUp/SignUp";
 
 
-export { NavBar, Header, Services, About, Deals, AboutProduct, Testimonials, SignUp }
+export { NavBar, Header, Services, About, Deals, AboutProduct, Testimonials, SignUp, Footer }

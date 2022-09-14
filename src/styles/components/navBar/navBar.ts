@@ -85,7 +85,7 @@ const OfferButton = styled(Button)( ({theme})=>({
 }) )
 
 
-const ShopNowButton = styled(Button)( ()=>({
+const ShopButton = styled(Button)( ()=>({
       color: 'white',
       backgroundColor: '#014145',
       borderRadius: '0px',
@@ -100,4 +100,4 @@ const ShopNowButton = styled(Button)( ()=>({
 }) )
 
 
-export { NavContainer, AppName, NavList, ItemButton, NavButtonList, OfferButton, ShopNowButton }
+export { NavContainer, AppName, NavList, ItemButton, NavButtonList, OfferButton, ShopButton }

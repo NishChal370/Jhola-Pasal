@@ -5,6 +5,7 @@ import { Container, styled } from "@mui/system";
 export const Main = styled(Container)( ({theme})=>({
       maxWidth: '34rem',
       marginTop: '4rem',
+      marginBottom: '2rem',
       display:'flex',
       flexDirection: 'column',
       justifyContent:'center',

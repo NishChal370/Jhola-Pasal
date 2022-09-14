@@ -1,6 +1,6 @@
 import { nanoid } from "nanoid";
 import { ListItem, ListItemText } from "@mui/material";
-import { NavContainer, AppName, NavList, ItemButton, NavButtonList, OfferButton, ShopNowButton } from "../../styles/components/navBar/navBar";
+import { NavContainer, AppName, NavList, ItemButton, NavButtonList, OfferButton, ShopButton } from "../../styles/components/navBar/navBar";
 
 function NavBar() {
       
@@ -24,7 +24,7 @@ function NavBar() {
                   <NavButtonList >
                         <OfferButton>Offers</OfferButton>
 
-                        <ShopNowButton>Shop Now</ShopNowButton>
+                        <ShopButton>Shop Now</ShopButton>
                   </NavButtonList>
             </NavContainer>
       )

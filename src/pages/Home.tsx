@@ -17,19 +17,6 @@ function Home() {
                   <Testimonials/>
 
                   <SignUp/>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
             </Stack>
       )
 }
