@@ -1,9 +1,8 @@
-import { List, ListItem, ListItemText, Typography } from "@mui/material";
-import { Stack } from "@mui/system";
+import { nanoid } from "nanoid";
+import { Stack, List, ListItem, ListItemText, Typography } from "@mui/material";
 import { GreenBag, GreenTick } from "../../../assets";
 import { GreenButton, Title } from "../../../styles/app";
 import { AboutProductStack, Image, ListImage, MainImageBox } from "../../../styles/components/home/aboutProduct";
-
 
 function AboutProduct() {
 
@@ -25,7 +24,7 @@ function AboutProduct() {
                               'Adjustable backstraps',
                               'Measurements H4o X W29 X D10cm',
                               'Water cloumn pressure: 8000 mm'].map((item)=>{ return(
-                                    <ListItem disablePadding>
+                                    <ListItem disablePadding key={nanoid()}>
                                           <ListImage>
                                                 <Image>
                                                       <img style={{width:'100%'}} src={GreenTick} alt='green-tick'/>

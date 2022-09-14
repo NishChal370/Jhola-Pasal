@@ -4,6 +4,7 @@ import Services from "./home/services/Services";
 import About from "./home/about/About";
 import Deals from "./home/deals/Deals";
 import AboutProduct from "./home/aboutProduct/AboutProduct";
+import Testimonials from "./home/testimonials/Testimonials";
 
 
-export { NavBar, Header, Services, About, Deals, AboutProduct }
+export { NavBar, Header, Services, About, Deals, AboutProduct, Testimonials }
